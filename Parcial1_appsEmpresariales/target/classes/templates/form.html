@@ -19,13 +19,15 @@
         <input type="text" name="apellido" id="apellido" th:field="*{apellido}">
         <span th:if="${#fields.hasErrors('apellido')}" th:errors="*{apellido}"></span>
         <label for="">direccion</label>
-        <input type="text" name="apellido" id="apellido" th:field="*{apellido}">
-        <span th:if="${#fields.hasErrors('apellido')}" th:errors="*{apellido}"></span>
-        <label for="">passwdord</label>
-        <input type="password" name="password" id="password" required>
+        <input type="text" name="direccion" id="direccion" th:field="*{direccion}">
+        <span th:if="${#fields.hasErrors('direccion')}" th:errors="*{direccion}"></span>
+        <label for="">telefono</label>
+        <input type="text" name="telefono" id="telefono" th:field="*{telefono}">
+        <span th:if="${#fields.hasErrors('telefono')}" th:errors="*{telefono}"></span>
         <label for="">email</label>
-        <input type="email" name="email" id="email">
-        <button type="submit">Enviar</button>
+        <input type="text" name="email" id="email" th:field="*{email}">
+        <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span>
+        <button type="submit">enviar</button>
     </form>
 </body>
 </html>

@@ -23,16 +23,16 @@ public class Empleado {
     public void setId(String id) {
         this.id = id;
     }
-    public String getnombre() {
+    public String getNombre() {
         return nombre;
     }
-    public void setnombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    public String gettelefono() {
+    public String getTelefono() {
         return telefono;
     }
-    public void settelefono(String telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
     public String getEmail() {
